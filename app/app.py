@@ -25,7 +25,7 @@ app = Flask(__name__)
 DEV_MODE = os.environ.get("DEV_MODE", "ephemeral").upper()
 
 DB_CONFIG = {
-    "host":     os.environ.get("DB_HOST", "pg-postgres.cities-demo.cpln.local"),
+    "host":     os.environ.get("DB_HOST", "rds-postgres"),
     "port":     int(os.environ.get("DB_PORT", 5432)),
     "dbname":   os.environ.get("DB_NAME", "cities"),
     "user":     os.environ.get("DB_USER", "cities"),
