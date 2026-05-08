@@ -1,0 +1,6 @@
+DB_HOST=pg-postgres.cities-demo.cpln.local
+DB_PORT=5432
+DB_NAME=cities
+DB_USER=cities
+DB_PASS=CitiesPass123
+PORT=8080
